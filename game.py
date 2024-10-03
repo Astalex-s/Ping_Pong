@@ -64,7 +64,6 @@ class Game(arcade.Window):
         if key == arcade.key.RIGHT or key == arcade.key.LEFT:
             self.bar.change_x = 0
 
-
     def setup(self):
         self.bar.center_x = SCREEN_WIDTH / 2
         self.bar.center_y = SCREEN_HEIGHT / 5
